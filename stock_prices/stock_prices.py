@@ -1,7 +1,6 @@
 #!/usr/bin/python
 import argparse
 
-prices = [1050, 270, 1540, 3800, 2]
 def find_max_profit(prices):
     # Get current min and max
     for i in range(0, len(prices)-1):
@@ -9,10 +8,9 @@ def find_max_profit(prices):
         current_max = 0
         if prices[i] > current_max:
             current_max = prices[i]
-return profit
-		i += 1
-		else:
-			print('No shorting allowed')
+	i += 1
+	else:
+		print('No shorting allowed')
   # if index of max > min: subtract numbers and return result
   # else: return
 
